@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Create buttons in HTML -->
+<button id="btn1" onclick="buttonClick(this)">1-dars</button>
+<button id="btn2" onclick="buttonClick(this)">2-dars</button>
+<!-- Add more buttons as needed -->
+
+<script src="index.js"></script>
+<script>
+// JavaScript function to handle button click
+function buttonClick(button) {
+    var buttonText = button.innerHTML; // Get the text of the clicked button
+    // You can add your bot logic here. For example, you might want to send 'buttonText' to your bot.
+    console.log("Button clicked: " + buttonText);
+}
+</script>
+
+</body>
+</html>
